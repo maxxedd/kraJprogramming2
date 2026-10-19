@@ -1,17 +1,0 @@
-begin
-    // Declaring different types of variables
-    nmbr age = 25 // integer 
-    deci price = 9.99 // float or decimal
-    string name = "Alice" // string 
-    fort isStudent = TRUE // bool
-    
-    disp "Age: " + age
-    disp "Price: " + price
-    disp "Name: " + name
-    
-    if isStudent
-        disp "Student status: Yes"
-    else
-        disp "Student status: No"
-    endif
-close
