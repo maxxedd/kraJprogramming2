@@ -1,0 +1,17 @@
+begin
+    // Basic for loop
+    disp "Counting from 1 to 5:"
+    
+    nmbr count = 5
+    for count times
+        disp "Hello!"
+    stop
+    
+    // Loop with counter
+    nmbr i = 1
+    for 3 times
+        disp "Loop iteration: " + i
+        i = i + 1
+    stop
+    
+close

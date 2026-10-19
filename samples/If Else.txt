@@ -1,0 +1,24 @@
+begin
+    // Basic if-else
+    nmbr score = 85
+    
+    if score >= 60
+        disp "You passed! ✅"
+    else
+        disp "You failed. ❌"
+    endif
+    
+    // if-elif-else
+    nmbr temperature = 25
+    
+    if temperature > 30
+        disp "It's hot! 🔥"
+    elif temperature > 20
+        disp "It's warm. 🌞"
+    elif temperature > 10
+        disp "It's cool. 🍃"
+    else
+        disp "It's cold! ❄️"
+    endif
+    
+close

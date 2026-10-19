@@ -1,0 +1,18 @@
+begin
+    // Basic text output
+    disp "Hello, World!"
+    
+    // Display with variables
+    string greeting = "Welcome"
+    nmbr year = 2025
+    disp greeting + " to KRAJ in " + year
+    
+    // Display calculations
+    disp "5 - 3 = " + (5 - 3)
+    disp "10 * 2 = " + (10 * 2)
+    
+    // Multiple lines
+    disp "Line 1"
+    disp "Line 2"
+    disp "Line 3"
+close

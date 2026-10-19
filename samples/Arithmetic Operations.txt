@@ -1,0 +1,36 @@
+begin
+    nmbr num1 = 10
+    nmbr num2 = 3
+    
+    // Use separate display lines
+    disp "Calculation: 10 [operation] 3"
+    disp ""
+    
+    // Addition
+    disp "For addition:"
+    disp "10 plus 3 ="
+    nmbr add = num1 + num2
+    disp add
+    disp ""
+    
+    // Subtraction
+    disp "For subtraction:"
+    disp "10 - 3 ="
+    nmbr sub = num1 - num2
+    disp sub
+    disp ""
+    
+    // Multiplication
+    disp "For multiplication:"
+    disp "10 * 3 ="
+    nmbr mul = num1 * num2
+    disp mul
+    disp ""
+    
+    // Division
+    disp "For division:"
+    disp "10 / 3 ="
+    nmbr div = num1 / num2
+    disp div
+close
+
